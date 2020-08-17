@@ -14,7 +14,7 @@ var score;
 // setup canvas and objects
 function setup() {
 
-  createCanvas(1920, 720); // set canvas size
+  createCanvas(640, 480); // set canvas size
   ball = new Ball(64, height / 2, 15); // create ball from ball function
   score = 0; // initial score
   textAlign(CENTER); // score counter alignment
